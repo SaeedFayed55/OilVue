@@ -1,0 +1,42 @@
+  this.$vs.notification({
+                            color: "success",
+
+                            text: `  تم التعديل بنجاح`,
+                        });
+
+
+
+
+                         this.$vs.notification({
+                            color: "success",
+
+                            text: `  تم الحذف بنجاح`,
+                        });
+
+                        
+                         this.$vs.notification({
+                            color: "success",
+
+                            text: `  تم الاضافه بنجاح`,
+                        });
+
+                        
+
+                         if (user_name == "" || user_password == "" || user_desc == "") {
+                this.$vs.notification({
+                    color: "danger",
+
+                    text: `برجاء ادخال قيمه`,
+                });
+                this.editActive = true
+                         }
+
+                         
+                         if (user_name == "" || user_password == "" || user_desc == "") {
+                this.$vs.notification({
+                    color: "danger",
+
+                    text: `برجاء ادخال قيمه`,
+                });
+                this.createActive = true
+                         }
